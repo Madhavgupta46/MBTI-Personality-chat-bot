@@ -121,8 +121,3 @@ if st.button("Predict Personality"):
     result = predict_mbti(full_text)
 
     st.success(f"Predicted MBTI Type: {result}")
-
-full_text = " ".join(responses)
-
-result = predict_mbti(full_text)
-
