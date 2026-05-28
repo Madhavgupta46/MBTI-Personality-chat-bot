@@ -15,7 +15,7 @@ import re
 import pickle
 
 from keras.models import load_model
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from keras.preprocessing.sequence import pad_sequences
 
 st.title("AI MBTI Personality Chatbot")
 
