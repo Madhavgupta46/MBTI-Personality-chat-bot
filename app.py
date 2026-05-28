@@ -106,8 +106,6 @@ questions = [
 
 responses = []
 
-responses = []
-
 for q in questions:
 
     ans = st.text_area(q)
